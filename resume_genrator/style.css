@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.text-center{
+    text-align: center;
+    padding: 30px;
+
+
+}
+
+.resume-builder{
+
+    padding: 80px 18%;
+    
+}
+.active{
+    display: none;
+}
+.bg{
+    background-color: bisque;
+}
+
+#name{
+    padding: 15px;
+    margin-top: 20px;
+
+}
+#address,#phone,#email{
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.summary{
+    padding-top: 30px;
+}
+#summary{
+    padding: 30px;
+    margin-top: 10px;
+}
+.skill{
+    padding-top: 30px;
+}
+#skills{
+    padding: 30px;
+    margin-top: 10px;
+}
+.Experience{
+    padding-top: 30px;
+}
+#Experiences{
+    padding: 30px;
+    margin-top: 10px;
+}
+.Education{
+    padding-top: 30px;
+}
+#Education{
+    padding: 30px;
+    margin-top: 10px;
+}
+.Language{
+    padding-top: 30px;
+}
+#Languages
+{
+    padding: 30px;
+    margin-top: 10px;
+}
+
+.Certification{
+    padding-top: 30px;
+
+}
+#Certification{
+    padding: 30px;
+    margin-top: 10px;
+}
+
+.btn{
+padding: 30px;
+
+width: 200px;
+height: 50px;
+margin-left: 200px;
+margin-top: 50px;
+font-weight: bold;
+cursor: pointer;
+
+background-color: aquamarine;
+outline: none;
+border: none;
+border-radius: 5px;
+}
+/* resume  */
+
+.resume{
+padding: 80px 18%;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    background-color: lightblue;
+    height: 30vh;
+    padding: 30px;
+    justify-content: space-between;
+}
+#heading1{
+    font-size: 50px;
+    color: white;
+}
+.right h4,p{
+    padding-top: 10px;
+
+
+}
+
+.summary-resume h2{ 
+    padding-bottom: 10px;
+    padding-top: 50px;
+    
+}
+.summary-resume p{
+    letter-spacing: 1px;
+    font-size: 15px;
+    padding: 20px;
+}
+#sk{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 20px;
+}
+#sk li{
+    padding: 20px;
+}
+.skill-resume h2{
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.skill input{
+    padding: 30px;
+    margin-top: 10px;
+    margin: 20px;
+
+}
+
+.experiences h2{ 
+    padding-bottom: 10px;
+    padding-top: 50px;
+    
+}
+.experiences p{
+    letter-spacing: 1px;
+    font-size: 15px;
+    padding: 20px;
+}
+.education h2{ 
+    padding-bottom: 10px;
+    padding-top: 50px;
+    
+}
+.education p{
+    letter-spacing: 1px;
+    font-size: 15px;
+    padding: 20px;
+}
+.languages h2{ 
+    padding-bottom: 10px;
+    padding-top: 50px;
+    
+}
+.languages p{
+    letter-spacing: 1px;
+    font-size: 15px;
+    padding: 20px;
+}
+.certificate h2{ 
+    padding-bottom: 10px;
+    padding-top: 50px;
+    
+}
+.certificate p{
+    letter-spacing: 1px;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.btn2{
+    padding: 10px;
+    width: 130px;
+    height: 40px;
+    background-color: aqua;
+    border: 2px solid wheat;
+    /* color: white; */
+    letter-spacing: 1px;
+    cursor: pointer;
+}
