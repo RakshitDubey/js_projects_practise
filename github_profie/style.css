@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+  font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+
+}
+body{
+    font-size: 1.6rem;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.search{
+    display: flex;
+    width: 50%;
+    max-width: 60rem;
+
+}
+.search input{
+    padding: 0.5rem 1rem;
+    width: 100%;
+
+
+
+}
+.primary-btn{
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+
+    border: none;
+}
+
+.profile-box{
+    padding: 4rem 2rem;
+    width: 90%;
+    max-width: 78rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.1);
+    transition: 0.5s ease-in;
+
+}
+.profile-box:hover{
+    transform: rotate(-2deg) scale(1.01);
+    transition: 0.5s ease-in;
+}
+.top-section{
+    display: flex;
+    justify-content: space-between;
+
+}
+.top-section button{
+    align-self:center ;
+
+}
+.left{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+
+}
+.left h1{
+    font-size: 1.6rem;
+}
+.avtar{
+    height: 10rem;
+    width: 10rem;
+}
+.avtar img{
+
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+   
+
+}
+
+
+
+.about{
+    margin: 2em;
+}
+.status{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(10rem,1fr));
+}
+
+.status-item{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+
+
+}
