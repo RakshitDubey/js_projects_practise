@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    position: absolute;
+
+    border-radius: 20px;
+    top: 50%;
+    
+    left: 50%;
+    border: 2px solid blue;
+    padding: 40px;
+    text-align: center;
+    align-self: center;
+    transform: translate(-50%,-50%);
+}
+
+.units{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.cel{
+    margin: 20px;
+
+}
+.cel input{
+    width: 120px;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 2px;
+    border: 1px solid orange;
+    outline: lightblue;
+}
+.fer{
+    
+    margin: 20px;
+}
+.fer input{
+    border-radius: 2px  ;
+    width: 120px;
+    padding: 20px;
+    font-size: 20px;
+    border: 1px solid orange;
+    outline: lightblue;
+}
