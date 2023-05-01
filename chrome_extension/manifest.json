@@ -1,0 +1,11 @@
+{
+    "name":"My chrome Extensioin",
+    "version":"1.0.0",
+    "description":"Just a Normal Extensioin",
+    "manifest_version":3,
+    "author":"Rakshit Dubey",
+    "action":{
+        "default_popup":"index.html",
+        "default_title":"My Extensioin"
+    }
+}
