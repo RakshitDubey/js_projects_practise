@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">    <h2>Simple Crud App</h2>
+    <form>
+        <input type="text" id="name" placeholder="Write Something">
+        <input type="button" value="Submit" onclick='manageData()' id="button">
+    </form>
+    <div id="msg"></div>
+    
+    <h2>List</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <td>S.No</td>
+                <td>Name</td>
+                <td>Action</td>
+            </tr>
+        <thead>
+        <tbody id="root">
+        
+        <tbody>
+    </table>
+</div>
+
+</body>
+<script src="script.js"></script>
+</html>
