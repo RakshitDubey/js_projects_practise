@@ -1,0 +1,29 @@
+body {
+  background-color: lightblue;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  padding: 50px;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 5px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: darkgray;
+}
