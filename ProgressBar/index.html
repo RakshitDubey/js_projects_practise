@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practise</title>
+    <style>
+        body{
+            background-color: #062A5B;
+        }
+        h4{
+            color: #fff;
+        }
+        .progresswrapper{
+            display: flex;
+            justify-content: space-between;
+            width: 300px;
+            height: 30px;
+            background-color: #fff;
+            padding: 4px;
+
+        }
+        .progressbar{
+            background-color: #D5DBDF;
+            width: 80%;
+
+
+        }
+        .progress{
+            width: 0%;
+            height: 100%;
+            background-color: green;
+            position: relative;
+        }
+        .progresslabel{
+            position: absolute;
+            top: 0;
+            right: 10;
+            left: 80%;
+            padding: 5px 10px;
+            color: #fff;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Progress Bar</h1>
+    <div class="progresswrapper">
+        <div class="progressbar">
+            <div class="progress">
+                <span class="progresslabel">
+                    0%
+                </span>
+            </div>
+        </div>
+        <button class="start">Start</button>
+    </div>
+    
+    <script src="script.js">
+
+
+
+    </script>
+</body>
+</html>
